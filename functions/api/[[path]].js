@@ -2,7 +2,7 @@ export async function onRequest(context) {
   const { request, env } = context;
   const url = new URL(request.url);
   
-  // Normalize path (removes trailing slashes for exact matching) 
+  // Normalize path (removes trailing slashes for exact matching)  
   let path = url.pathname.replace(/\/+$/, '');
   if (path === '') path = '/';
 
