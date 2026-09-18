@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sportsfest",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-18",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sportsfest-db",
+      "database_id": "4ff094cf-501a-42ab-b796-ff48dc3578eb"
+    }
+  ]
+}
