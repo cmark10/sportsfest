@@ -5,4 +5,4 @@ pages_build_output_dir = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "sportsfest-db"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "4ff094cf-501a-42ab-b796-ff48dc3578eb"
